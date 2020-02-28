@@ -1,0 +1,15 @@
+{
+  "name": "ang9-ng6002",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "repro": "yarn workspace angular-app start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true
+}
